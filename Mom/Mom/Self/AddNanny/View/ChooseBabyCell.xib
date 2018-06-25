@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChooseBabyCell" rowHeight="92" id="eWU-W9-kfi" customClass="ChooseBabyCell">
+            <rect key="frame" x="0.0" y="0.0" width="525" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eWU-W9-kfi" id="dgY-kZ-08R">
+                <rect key="frame" x="0.0" y="0.0" width="525" height="91.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="self_baby_boy" translatesAutoresizingMaskIntoConstraints="NO" id="ZGQ-Dn-NxS">
+                        <rect key="frame" x="15" y="21" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="2be-fx-TVf"/>
+                            <constraint firstAttribute="width" constant="50" id="SOc-cs-dfj"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="蘑菇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfd-66-xac">
+                        <rect key="frame" x="75" y="25" width="300" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="JOV-1z-PJe"/>
+                            <constraint firstAttribute="height" constant="18" id="ijA-Cm-a4l"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出生(或预产期):2018.04.12-2018.05.12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jq-0C-yyW">
+                        <rect key="frame" x="75" y="49" width="300" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="229-Gh-4JQ"/>
+                            <constraint firstAttribute="height" constant="18" id="483-XK-lC1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgD-FI-GIU">
+                        <rect key="frame" x="465" y="26" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="6IO-bq-eJ4"/>
+                            <constraint firstAttribute="height" constant="40" id="OH5-iP-av5"/>
+                        </constraints>
+                        <state key="normal" image="self_baby_normal"/>
+                        <state key="selected" image="self_baby_seleted"/>
+                        <connections>
+                            <action selector="btnClick:" destination="eWU-W9-kfi" eventType="touchUpInside" id="gdZ-vj-T5h"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HgD-FI-GIU" firstAttribute="centerY" secondItem="dgY-kZ-08R" secondAttribute="centerY" id="1t6-2M-bLF"/>
+                    <constraint firstItem="7Jq-0C-yyW" firstAttribute="leading" secondItem="ZGQ-Dn-NxS" secondAttribute="trailing" constant="10" id="5HU-ro-brO"/>
+                    <constraint firstItem="ZGQ-Dn-NxS" firstAttribute="centerY" secondItem="dgY-kZ-08R" secondAttribute="centerY" id="C8T-qd-w97"/>
+                    <constraint firstItem="Wfd-66-xac" firstAttribute="centerY" secondItem="dgY-kZ-08R" secondAttribute="centerY" constant="-12" id="Eub-Am-wBo"/>
+                    <constraint firstItem="Wfd-66-xac" firstAttribute="leading" secondItem="ZGQ-Dn-NxS" secondAttribute="trailing" constant="10" id="MiM-f2-CdV"/>
+                    <constraint firstItem="ZGQ-Dn-NxS" firstAttribute="leading" secondItem="dgY-kZ-08R" secondAttribute="leading" constant="15" id="PCc-4Z-VbH"/>
+                    <constraint firstItem="HgD-FI-GIU" firstAttribute="trailing" secondItem="dgY-kZ-08R" secondAttribute="trailingMargin" id="ak8-re-PqU"/>
+                    <constraint firstItem="7Jq-0C-yyW" firstAttribute="centerY" secondItem="dgY-kZ-08R" secondAttribute="centerY" constant="12" id="x2s-60-C6l"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="babyIcon" destination="ZGQ-Dn-NxS" id="2Ap-89-lPh"/>
+                <outlet property="babyName" destination="Wfd-66-xac" id="DhW-pE-Ens"/>
+                <outlet property="birthDate" destination="7Jq-0C-yyW" id="cFC-Ua-ciE"/>
+                <outlet property="selectedBtn" destination="HgD-FI-GIU" id="vL9-BP-lQL"/>
+            </connections>
+            <point key="canvasLocation" x="50" y="235"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="self_baby_boy" width="44" height="44"/>
+        <image name="self_baby_normal" width="20" height="20"/>
+        <image name="self_baby_seleted" width="20" height="20"/>
+    </resources>
+</document>

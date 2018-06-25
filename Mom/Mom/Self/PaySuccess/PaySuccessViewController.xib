@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaySuccessViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="self_pay_finsh" translatesAutoresizingMaskIntoConstraints="NO" id="aLh-Pb-PMk">
+                    <rect key="frame" x="147.5" y="40" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="3Bk-KJ-UsE"/>
+                        <constraint firstAttribute="width" constant="80" id="Anl-8N-JGJ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="线上支付成功" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlO-b6-d8q">
+                    <rect key="frame" x="87.5" y="140" width="200" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="bso-id-afk"/>
+                        <constraint firstAttribute="width" constant="200" id="d3x-Gb-1yT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="文案文案文案文案什么意思？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODH-Ko-D75">
+                    <rect key="frame" x="38" y="175" width="300" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Iuz-oe-FPA"/>
+                        <constraint firstAttribute="width" constant="300" id="xik-hB-6OM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7J7-Ai-8o9">
+                    <rect key="frame" x="15" y="340" width="345" height="40"/>
+                    <color key="backgroundColor" red="0.99607843137254903" green="0.83137254901960778" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="VJj-pO-6FP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="领取优惠券">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="getCoupon:" destination="-1" eventType="touchUpInside" id="S3T-XP-2IC"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="self_coupons_preferential" translatesAutoresizingMaskIntoConstraints="NO" id="bTB-ZF-UA1">
+                    <rect key="frame" x="147" y="230" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="JyJ-1w-Wq3"/>
+                        <constraint firstAttribute="height" constant="80" id="cHX-7c-s9I"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OlO-b6-d8q" firstAttribute="top" secondItem="aLh-Pb-PMk" secondAttribute="bottom" constant="20" id="541-Dn-NuX"/>
+                <constraint firstItem="bTB-ZF-UA1" firstAttribute="top" secondItem="ODH-Ko-D75" secondAttribute="bottom" constant="30" id="5gN-dv-lPE"/>
+                <constraint firstItem="7J7-Ai-8o9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="C3o-1c-yJH"/>
+                <constraint firstItem="aLh-Pb-PMk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EJa-Qg-BrQ"/>
+                <constraint firstItem="ODH-Ko-D75" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HJK-Q0-USA"/>
+                <constraint firstItem="7J7-Ai-8o9" firstAttribute="top" secondItem="bTB-ZF-UA1" secondAttribute="bottom" constant="30" id="KLG-Mk-YLZ"/>
+                <constraint firstItem="7J7-Ai-8o9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NYt-Tr-yfB"/>
+                <constraint firstItem="aLh-Pb-PMk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="S4r-TH-kZg"/>
+                <constraint firstAttribute="trailing" secondItem="7J7-Ai-8o9" secondAttribute="trailing" constant="15" id="UMC-FE-3qR"/>
+                <constraint firstItem="ODH-Ko-D75" firstAttribute="top" secondItem="OlO-b6-d8q" secondAttribute="bottom" constant="10" id="Vwc-7J-h9L"/>
+                <constraint firstItem="OlO-b6-d8q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nLd-XT-KyG"/>
+                <constraint firstItem="bTB-ZF-UA1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="oUd-Zu-YVL"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="self_coupons_preferential" width="71" height="74"/>
+        <image name="self_pay_finsh" width="80" height="80"/>
+    </resources>
+</document>

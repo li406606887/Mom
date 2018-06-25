@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyBabyTableViewCell" rowHeight="183" id="KGk-i7-Jjw" customClass="MyBabyTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="183"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="182.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="self_baby_boy" translatesAutoresizingMaskIntoConstraints="NO" id="O6D-GA-Yct">
+                        <rect key="frame" x="15" y="61.5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="D4H-5r-aHa"/>
+                            <constraint firstAttribute="width" constant="60" id="MOj-Ke-UF2"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出生(或预产期):2018.06.24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nld-aH-6vL">
+                        <rect key="frame" x="85" y="96" width="300" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Nz2-J5-HAa"/>
+                            <constraint firstAttribute="width" constant="300" id="YLV-3U-10P"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="蘑菇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5P-26-TAh">
+                        <rect key="frame" x="85" y="66.5" width="300" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="jLD-03-ELc"/>
+                            <constraint firstAttribute="width" constant="300" id="mVG-pT-7m7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="O6D-GA-Yct" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Hcb-Qh-wXK"/>
+                    <constraint firstItem="Nld-aH-6vL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="15" id="Nf8-lI-8Di"/>
+                    <constraint firstItem="O6D-GA-Yct" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Z4g-Bg-t8r"/>
+                    <constraint firstItem="T5P-26-TAh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-15" id="iuI-gM-bOd"/>
+                    <constraint firstItem="Nld-aH-6vL" firstAttribute="leading" secondItem="O6D-GA-Yct" secondAttribute="trailing" constant="10" id="lae-HO-MDG"/>
+                    <constraint firstItem="T5P-26-TAh" firstAttribute="leading" secondItem="O6D-GA-Yct" secondAttribute="trailing" constant="10" id="whE-y0-NPU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="birthDate" destination="Nld-aH-6vL" id="kZB-6M-F1h"/>
+                <outlet property="headIcon" destination="O6D-GA-Yct" id="2aF-L4-yGW"/>
+                <outlet property="name" destination="T5P-26-TAh" id="28w-q7-hvH"/>
+            </connections>
+            <point key="canvasLocation" x="114" y="191.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="self_baby_boy" width="44" height="44"/>
+    </resources>
+</document>
