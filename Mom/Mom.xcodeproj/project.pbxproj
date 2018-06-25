@@ -324,6 +324,25 @@
 		7EFC044B20E125F2007CE6DA /* MyWelfareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC031020E125F2007CE6DA /* MyWelfareViewController.xib */; };
 		7EFC044D20E12607007CE6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC044C20E12606007CE6DA /* LaunchScreen.storyboard */; };
 		7EFC044F20E12617007CE6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC044E20E12616007CE6DA /* Assets.xcassets */; };
+		7EFC047620E128ED007CE6DA /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC045320E128EC007CE6DA /* PageViewController.m */; };
+		7EFC047720E128ED007CE6DA /* NannyCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC045420E128EC007CE6DA /* NannyCardViewController.xib */; };
+		7EFC047820E128ED007CE6DA /* DLNavigationTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC045720E128EC007CE6DA /* DLNavigationTabBar.m */; };
+		7EFC047920E128ED007CE6DA /* NannyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC045820E128EC007CE6DA /* NannyCardViewController.m */; };
+		7EFC047A20E128ED007CE6DA /* TakeLifeCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC045B20E128EC007CE6DA /* TakeLifeCellTableViewCell.m */; };
+		7EFC047B20E128ED007CE6DA /* BabyLifeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC045C20E128EC007CE6DA /* BabyLifeModel.m */; };
+		7EFC047C20E128ED007CE6DA /* LifeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC045D20E128EC007CE6DA /* LifeModel.m */; };
+		7EFC047D20E128ED007CE6DA /* BabyLifeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC045F20E128EC007CE6DA /* BabyLifeTableViewCell.m */; };
+		7EFC047E20E128ED007CE6DA /* BabyLifeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC046220E128EC007CE6DA /* BabyLifeViewController.xib */; };
+		7EFC047F20E128ED007CE6DA /* BabyLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC046320E128EC007CE6DA /* BabyLifeViewController.m */; };
+		7EFC048020E128ED007CE6DA /* LifePhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC046620E128EC007CE6DA /* LifePhotoModel.m */; };
+		7EFC048120E128ED007CE6DA /* NannyCertificateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC046920E128EC007CE6DA /* NannyCertificateViewController.xib */; };
+		7EFC048220E128ED007CE6DA /* NannyCertificateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC046A20E128EC007CE6DA /* NannyCertificateViewController.m */; };
+		7EFC048320E128ED007CE6DA /* CertificateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC046C20E128EC007CE6DA /* CertificateModel.m */; };
+		7EFC048420E128ED007CE6DA /* CertificateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC046D20E128EC007CE6DA /* CertificateCollectionViewCell.m */; };
+		7EFC048520E128ED007CE6DA /* CertificateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC046F20E128EC007CE6DA /* CertificateCollectionViewCell.xib */; };
+		7EFC048620E128ED007CE6DA /* NannyCertificateViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC047120E128EC007CE6DA /* NannyCertificateViewModel.m */; };
+		7EFC048720E128ED007CE6DA /* TakeLifeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFC047420E128EC007CE6DA /* TakeLifeViewController.xib */; };
+		7EFC048820E128ED007CE6DA /* TakeLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC047520E128EC007CE6DA /* TakeLifeViewController.m */; };
 		7EFCFFF720E12581007CE6DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCFFF620E12581007CE6DA /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -936,6 +955,39 @@
 		7EFC031120E125F2007CE6DA /* MyWelfareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWelfareViewController.h; sourceTree = "<group>"; };
 		7EFC044C20E12606007CE6DA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EFC044E20E12616007CE6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EFC045220E128EC007CE6DA /* DLNavigationTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNavigationTabBar.h; sourceTree = "<group>"; };
+		7EFC045320E128EC007CE6DA /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		7EFC045420E128EC007CE6DA /* NannyCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NannyCardViewController.xib; sourceTree = "<group>"; };
+		7EFC045520E128EC007CE6DA /* NannyCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NannyCardViewController.h; sourceTree = "<group>"; };
+		7EFC045620E128EC007CE6DA /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		7EFC045720E128EC007CE6DA /* DLNavigationTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNavigationTabBar.m; sourceTree = "<group>"; };
+		7EFC045820E128EC007CE6DA /* NannyCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NannyCardViewController.m; sourceTree = "<group>"; };
+		7EFC045A20E128EC007CE6DA /* BabyLifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyLifeViewController.h; sourceTree = "<group>"; };
+		7EFC045B20E128EC007CE6DA /* TakeLifeCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeLifeCellTableViewCell.m; sourceTree = "<group>"; };
+		7EFC045C20E128EC007CE6DA /* BabyLifeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyLifeModel.m; sourceTree = "<group>"; };
+		7EFC045D20E128EC007CE6DA /* LifeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeModel.m; sourceTree = "<group>"; };
+		7EFC045E20E128EC007CE6DA /* LifePhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifePhotoModel.h; sourceTree = "<group>"; };
+		7EFC045F20E128EC007CE6DA /* BabyLifeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyLifeTableViewCell.m; sourceTree = "<group>"; };
+		7EFC046020E128EC007CE6DA /* BabyLifeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyLifeModel.h; sourceTree = "<group>"; };
+		7EFC046120E128EC007CE6DA /* TakeLifeCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeLifeCellTableViewCell.h; sourceTree = "<group>"; };
+		7EFC046220E128EC007CE6DA /* BabyLifeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BabyLifeViewController.xib; sourceTree = "<group>"; };
+		7EFC046320E128EC007CE6DA /* BabyLifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyLifeViewController.m; sourceTree = "<group>"; };
+		7EFC046420E128EC007CE6DA /* LifeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeModel.h; sourceTree = "<group>"; };
+		7EFC046520E128EC007CE6DA /* BabyLifeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyLifeTableViewCell.h; sourceTree = "<group>"; };
+		7EFC046620E128EC007CE6DA /* LifePhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifePhotoModel.m; sourceTree = "<group>"; };
+		7EFC046820E128EC007CE6DA /* CertificateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateCollectionViewCell.h; sourceTree = "<group>"; };
+		7EFC046920E128EC007CE6DA /* NannyCertificateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NannyCertificateViewController.xib; sourceTree = "<group>"; };
+		7EFC046A20E128EC007CE6DA /* NannyCertificateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NannyCertificateViewController.m; sourceTree = "<group>"; };
+		7EFC046B20E128EC007CE6DA /* NannyCertificateViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NannyCertificateViewModel.h; sourceTree = "<group>"; };
+		7EFC046C20E128EC007CE6DA /* CertificateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateModel.m; sourceTree = "<group>"; };
+		7EFC046D20E128EC007CE6DA /* CertificateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateCollectionViewCell.m; sourceTree = "<group>"; };
+		7EFC046E20E128EC007CE6DA /* NannyCertificateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NannyCertificateViewController.h; sourceTree = "<group>"; };
+		7EFC046F20E128EC007CE6DA /* CertificateCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertificateCollectionViewCell.xib; sourceTree = "<group>"; };
+		7EFC047020E128EC007CE6DA /* CertificateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateModel.h; sourceTree = "<group>"; };
+		7EFC047120E128EC007CE6DA /* NannyCertificateViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NannyCertificateViewModel.m; sourceTree = "<group>"; };
+		7EFC047320E128EC007CE6DA /* TakeLifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeLifeViewController.h; sourceTree = "<group>"; };
+		7EFC047420E128EC007CE6DA /* TakeLifeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeLifeViewController.xib; sourceTree = "<group>"; };
+		7EFC047520E128EC007CE6DA /* TakeLifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeLifeViewController.m; sourceTree = "<group>"; };
 		7EFCFFE420E1257F007CE6DA /* Mom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EFCFFF520E12581007CE6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EFCFFF620E12581007CE6DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1683,6 +1735,7 @@
 		7EFC012520E125F1007CE6DA /* Self */ = {
 			isa = PBXGroup;
 			children = (
+				7EFC045020E128EC007CE6DA /* NannyCard */,
 				7EFC012620E125F1007CE6DA /* CouponsDetails */,
 				7EFC012B20E125F1007CE6DA /* RealNameAuthentication */,
 				7EFC012F20E125F1007CE6DA /* Information */,
@@ -3011,6 +3064,79 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7EFC045020E128EC007CE6DA /* NannyCard */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC045120E128EC007CE6DA /* VC */,
+				7EFC047220E128EC007CE6DA /* TakeLife */,
+			);
+			name = NannyCard;
+			path = ../../../../../Documents/Nanny/Nanny/Nanny/Self/NannyCard;
+			sourceTree = "<group>";
+		};
+		7EFC045120E128EC007CE6DA /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC045220E128EC007CE6DA /* DLNavigationTabBar.h */,
+				7EFC045320E128EC007CE6DA /* PageViewController.m */,
+				7EFC045420E128EC007CE6DA /* NannyCardViewController.xib */,
+				7EFC045520E128EC007CE6DA /* NannyCardViewController.h */,
+				7EFC045620E128EC007CE6DA /* PageViewController.h */,
+				7EFC045720E128EC007CE6DA /* DLNavigationTabBar.m */,
+				7EFC045820E128EC007CE6DA /* NannyCardViewController.m */,
+				7EFC045920E128EC007CE6DA /* BabyLife */,
+				7EFC046720E128EC007CE6DA /* NannyCertificate */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7EFC045920E128EC007CE6DA /* BabyLife */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC045A20E128EC007CE6DA /* BabyLifeViewController.h */,
+				7EFC045B20E128EC007CE6DA /* TakeLifeCellTableViewCell.m */,
+				7EFC045C20E128EC007CE6DA /* BabyLifeModel.m */,
+				7EFC045D20E128EC007CE6DA /* LifeModel.m */,
+				7EFC045E20E128EC007CE6DA /* LifePhotoModel.h */,
+				7EFC045F20E128EC007CE6DA /* BabyLifeTableViewCell.m */,
+				7EFC046020E128EC007CE6DA /* BabyLifeModel.h */,
+				7EFC046120E128EC007CE6DA /* TakeLifeCellTableViewCell.h */,
+				7EFC046220E128EC007CE6DA /* BabyLifeViewController.xib */,
+				7EFC046320E128EC007CE6DA /* BabyLifeViewController.m */,
+				7EFC046420E128EC007CE6DA /* LifeModel.h */,
+				7EFC046520E128EC007CE6DA /* BabyLifeTableViewCell.h */,
+				7EFC046620E128EC007CE6DA /* LifePhotoModel.m */,
+			);
+			path = BabyLife;
+			sourceTree = "<group>";
+		};
+		7EFC046720E128EC007CE6DA /* NannyCertificate */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC046820E128EC007CE6DA /* CertificateCollectionViewCell.h */,
+				7EFC046920E128EC007CE6DA /* NannyCertificateViewController.xib */,
+				7EFC046A20E128EC007CE6DA /* NannyCertificateViewController.m */,
+				7EFC046B20E128EC007CE6DA /* NannyCertificateViewModel.h */,
+				7EFC046C20E128EC007CE6DA /* CertificateModel.m */,
+				7EFC046D20E128EC007CE6DA /* CertificateCollectionViewCell.m */,
+				7EFC046E20E128EC007CE6DA /* NannyCertificateViewController.h */,
+				7EFC046F20E128EC007CE6DA /* CertificateCollectionViewCell.xib */,
+				7EFC047020E128EC007CE6DA /* CertificateModel.h */,
+				7EFC047120E128EC007CE6DA /* NannyCertificateViewModel.m */,
+			);
+			path = NannyCertificate;
+			sourceTree = "<group>";
+		};
+		7EFC047220E128EC007CE6DA /* TakeLife */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC047320E128EC007CE6DA /* TakeLifeViewController.h */,
+				7EFC047420E128EC007CE6DA /* TakeLifeViewController.xib */,
+				7EFC047520E128EC007CE6DA /* TakeLifeViewController.m */,
+			);
+			path = TakeLife;
+			sourceTree = "<group>";
+		};
 		7EFCFFDB20E1257F007CE6DA = {
 			isa = PBXGroup;
 			children = (
@@ -3147,17 +3273,22 @@
 				7EFC039A20E125F2007CE6DA /* AddNannyTableViewCell.xib in Resources */,
 				7EFC03BE20E125F2007CE6DA /* CouponsViewController.xib in Resources */,
 				7EFC03A820E125F2007CE6DA /* PaySuccessViewController.xib in Resources */,
+				7EFC047720E128ED007CE6DA /* NannyCardViewController.xib in Resources */,
 				7EFC03CE20E125F2007CE6DA /* DemandDetailsTableViewCell.xib in Resources */,
 				7EFC044B20E125F2007CE6DA /* MyWelfareViewController.xib in Resources */,
 				7EFC042F20E125F2007CE6DA /* ActivityViewController.xib in Resources */,
 				7EFC039720E125F2007CE6DA /* AddNannyViewController.xib in Resources */,
 				7EFC039C20E125F2007CE6DA /* ChooseBabyCell.xib in Resources */,
+				7EFC048720E128ED007CE6DA /* TakeLifeViewController.xib in Resources */,
 				7EFC03B620E125F2007CE6DA /* MyRewardTableViewCell.xib in Resources */,
 				7EFC03F320E125F2007CE6DA /* GetCouponTableViewCell.xib in Resources */,
 				7EFC042820E125F2007CE6DA /* JaundiceObserViewController.xib in Resources */,
+				7EFC048520E128ED007CE6DA /* CertificateCollectionViewCell.xib in Resources */,
 				7EFC044D20E12607007CE6DA /* LaunchScreen.storyboard in Resources */,
 				7EFC039120E125F2007CE6DA /* MyBabyViewController.xib in Resources */,
 				7EFC038420E125F2007CE6DA /* CouponsDetailsViewController.xib in Resources */,
+				7EFC048120E128ED007CE6DA /* NannyCertificateViewController.xib in Resources */,
+				7EFC047E20E128ED007CE6DA /* BabyLifeViewController.xib in Resources */,
 				7EFC040720E125F2007CE6DA /* DemandTableViewCell.xib in Resources */,
 				7EFC042E20E125F2007CE6DA /* JaundiceTableViewCell.xib in Resources */,
 				7EFC03FC20E125F2007CE6DA /* SearchNannyTableViewCell.xib in Resources */,
@@ -3299,12 +3430,14 @@
 				7EFC040820E125F2007CE6DA /* YLBalanceDetailsViewModel.m in Sources */,
 				7EFC044A20E125F2007CE6DA /* MyWelfareTableViewCell.m in Sources */,
 				7EFC041120E125F2007CE6DA /* PayMoneyViewModel.m in Sources */,
+				7EFC047A20E128ED007CE6DA /* TakeLifeCellTableViewCell.m in Sources */,
 				7EFC03F420E125F2007CE6DA /* GetCouponViewController.m in Sources */,
 				7EFC031220E125F2007CE6DA /* ServiceViewModel.m in Sources */,
 				7EFC037520E125F2007CE6DA /* StoreTableViewCell.m in Sources */,
 				7EFC033E20E125F2007CE6DA /* GroupMoreView.m in Sources */,
 				7EFC032D20E125F2007CE6DA /* SetingPayPwdView.m in Sources */,
 				7EFC034A20E125F2007CE6DA /* GroupDetailsTableViewCell.m in Sources */,
+				7EFC047C20E128ED007CE6DA /* LifeModel.m in Sources */,
 				7EFC03B720E125F2007CE6DA /* MyRewardTableViewCell.m in Sources */,
 				7EFC038F20E125F2007CE6DA /* HotMomTableViewCell.m in Sources */,
 				7EFC032B20E125F2007CE6DA /* SetingPayPwdViewModel.m in Sources */,
@@ -3319,6 +3452,7 @@
 				7EFC033520E125F2007CE6DA /* PromptView.m in Sources */,
 				7EFC032E20E125F2007CE6DA /* LoginViewModel.m in Sources */,
 				7EFC03B420E125F2007CE6DA /* MyRewardViewController.m in Sources */,
+				7EFC047B20E128ED007CE6DA /* BabyLifeModel.m in Sources */,
 				7EFC039620E125F2007CE6DA /* AddNannyViewModel.m in Sources */,
 				7EFC03E920E125F2007CE6DA /* YLCardManageViewModel.m in Sources */,
 				7EFC040120E125F2007CE6DA /* YLWithdrawFootView.m in Sources */,
@@ -3368,6 +3502,7 @@
 				7EFC03F620E125F2007CE6DA /* SearchNannyModel.m in Sources */,
 				7EFC035F20E125F2007CE6DA /* UIImage+SGImageSize.m in Sources */,
 				7EFC03DC20E125F2007CE6DA /* YLWalletViewModel.m in Sources */,
+				7EFC048020E128ED007CE6DA /* LifePhotoModel.m in Sources */,
 				7EFC034E20E125F2007CE6DA /* PhotoModel.m in Sources */,
 				7EFC037D20E125F2007CE6DA /* QHTabBar.m in Sources */,
 				7EFC03C020E125F2007CE6DA /* CouponsModel.m in Sources */,
@@ -3397,6 +3532,7 @@
 				7EFC042120E125F2007CE6DA /* FarmHeadView.m in Sources */,
 				7EFC038C20E125F2007CE6DA /* HotMomViewModel.m in Sources */,
 				7EFC041520E125F2007CE6DA /* MyInformationViewModel.m in Sources */,
+				7EFC047620E128ED007CE6DA /* PageViewController.m in Sources */,
 				7EFC039820E125F2007CE6DA /* AddNannyViewController.m in Sources */,
 				7EFC043820E125F2007CE6DA /* SGQRCodeScanManager.m in Sources */,
 				7EFC03D520E125F2007CE6DA /* YLAccountBindingViewModel.m in Sources */,
@@ -3405,9 +3541,11 @@
 				7EFC041A20E125F2007CE6DA /* ModifyPhoneViewModel.m in Sources */,
 				7EFC03E120E125F2007CE6DA /* YLAddBankCardViewController.m in Sources */,
 				7EFC042420E125F2007CE6DA /* FarmViewController.m in Sources */,
+				7EFC047820E128ED007CE6DA /* DLNavigationTabBar.m in Sources */,
 				7EFC03DA20E125F2007CE6DA /* YLRechargeWayCell.m in Sources */,
 				7EFC033F20E125F2007CE6DA /* GroupViewController.m in Sources */,
 				7EFC03A120E125F2007CE6DA /* BabyTableViewCell.m in Sources */,
+				7EFC048820E128ED007CE6DA /* TakeLifeViewController.m in Sources */,
 				7EFC032020E125F2007CE6DA /* ForgetPwdView.m in Sources */,
 				7EFC033020E125F2007CE6DA /* LoginModel.m in Sources */,
 				7EFC044520E125F2007CE6DA /* PlantingSearchView.m in Sources */,
@@ -3467,6 +3605,7 @@
 				7EFC038220E125F2007CE6DA /* QHRequestModel.m in Sources */,
 				7EFC036820E125F2007CE6DA /* NSObject+YFPhoto.m in Sources */,
 				7EFC039420E125F2007CE6DA /* MyBabbyViewModel.m in Sources */,
+				7EFC047D20E128ED007CE6DA /* BabyLifeTableViewCell.m in Sources */,
 				7EFC041620E125F2007CE6DA /* MyInformationViewController.m in Sources */,
 				7EFC040A20E125F2007CE6DA /* YLBalancePayoutView.m in Sources */,
 				7EFC044120E125F2007CE6DA /* PlantingViewModel.m in Sources */,
@@ -3509,12 +3648,14 @@
 				7EFC03DD20E125F2007CE6DA /* UserDataModel.m in Sources */,
 				7EFC03C220E125F2007CE6DA /* CouponsTableViewCell.m in Sources */,
 				7EFC037920E125F2007CE6DA /* ViewBaseController.m in Sources */,
+				7EFC047920E128ED007CE6DA /* NannyCardViewController.m in Sources */,
 				7EFC034920E125F2007CE6DA /* GroupDetailsViewController.m in Sources */,
 				7EFC03F920E125F2007CE6DA /* SearchNannyFootView.m in Sources */,
 				7EFC03BB20E125F2007CE6DA /* AddBabyView.m in Sources */,
 				7EFC03D620E125F2007CE6DA /* YLRechargeMainView.m in Sources */,
 				7EFC036920E125F2007CE6DA /* UIView+Extension.m in Sources */,
 				7EFC042720E125F2007CE6DA /* JaundiceObserViewModel.m in Sources */,
+				7EFC048620E128ED007CE6DA /* NannyCertificateViewModel.m in Sources */,
 				7EFC033C20E125F2007CE6DA /* GroupMoreViewModel.m in Sources */,
 				7EFC03B220E125F2007CE6DA /* MyRewardViewModel.m in Sources */,
 				7EFC036520E125F2007CE6DA /* NSString+Extension.m in Sources */,
@@ -3528,10 +3669,14 @@
 				7EFC03D020E125F2007CE6DA /* YLALIBindingViewController.m in Sources */,
 				7EFC03E020E125F2007CE6DA /* YLWalletViewController.m in Sources */,
 				7EFC03FA20E125F2007CE6DA /* SearchNannyTableViewCell.m in Sources */,
+				7EFC047F20E128ED007CE6DA /* BabyLifeViewController.m in Sources */,
+				7EFC048420E128ED007CE6DA /* CertificateCollectionViewCell.m in Sources */,
+				7EFC048320E128ED007CE6DA /* CertificateModel.m in Sources */,
 				7EFC041D20E125F2007CE6DA /* FarmViewModel.m in Sources */,
 				7EFC040C20E125F2007CE6DA /* YLBalanceDetailsAllView.m in Sources */,
 				7EFC038A20E125F2007CE6DA /* InformationView.m in Sources */,
 				7EFC03E320E125F2007CE6DA /* YiGeSheetView.m in Sources */,
+				7EFC048220E128ED007CE6DA /* NannyCertificateViewController.m in Sources */,
 				7EFC041B20E125F2007CE6DA /* ModifyPhoneViewController.m in Sources */,
 				7EFC033620E125F2007CE6DA /* AVPlayerView.m in Sources */,
 				7EFC03A520E125F2007CE6DA /* PregnancyTableViewCell.m in Sources */,
@@ -3660,8 +3805,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXB9LY2JET;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Common/PrefixHeader.pch";
 				INFOPLIST_FILE = Mom/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pretty.Mom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3675,8 +3824,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXB9LY2JET;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Common/PrefixHeader.pch";
 				INFOPLIST_FILE = Mom/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pretty.Mom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
